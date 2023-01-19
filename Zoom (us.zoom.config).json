@@ -602,6 +602,165 @@
                     "type": "boolean"
                 }
             ]
+        },
+        "AU2_EnableAutoUpdate": {
+            "title": "Auto Update Enterprise",
+            "description": "Allow updates through the client (Disabled by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+
+        },
+        "AU2_SetUpdateChannel": {
+            "title": "Update Channel",
+            "description": "Set the cadence of updates applied to the desktop client (0-Slow by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AU2_UpdateChannelCandidates": {
+            "title": "Update Channel Candidates",
+            "description": "Define additional update channel options. (Empty by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "AU2_EnableShowZoomUpdates": {
+            "title": "Show Zoom Updates",
+            "description": "Show the Zoom Updates section of the General tab in client settings. (Enabled by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AU2_LimitManualUpdateVersion": {
+            "title": "Limit Manual Update",
+            "description": "Allow users to manually check for updates to the desktop client (Disabled by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AU2_EnableUpdateAvailableBanner": {
+            "title": "Enable Update Available Banner",
+            "description": "Show the Update Available banner on the Home tab of the client, when an update is available. (Enabled by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AU2_EnablePromptUpdateForAU2": {
+            "title": "Enable Prompt Update",
+            "description": "Prompt users to update when exiting a meeting or webinar, when an update is available. (Disabled by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AU2_EnableUpdateSuccessNotification": {
+            "title": "Enable Update Success Notification",
+            "description": "Show notification indicating an update has been successfully installed. (Enabled by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AU2_EnableManualUpdate": {
+            "title": "Enable Manual Update",
+            "description": "Control the visibility of the Check for Updates option in the client. (Enabled by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AU2_DeploySpecificVersion": {
+            "title": "Deploy Specific Version",
+            "description": "Download and install the specified version, if the currently installed version is below that version. (Empty by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "AU2_SetUpdateSchedule": {
+            "title": "Set Update Schedule",
+            "description": "Set to download an available update version on a schedule. (Empty by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
+        },
+        "AU2_InstallAtIdleTime": {
+            "title": "Install At Idle Time",
+            "description": "Auto install an available update when the device is idle. (Disabled by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "boolean"
+                }
+            ]
+        },
+        "AU2_SafeUpgradePeriod": {
+            "title": "Safe Upgrade Period",
+            "description": "Set to install updates within a given time period. (Empty by default)",
+            "property_order": 250,
+            "anyOf": [
+                {"type": "null", "title": "Not Configured"},
+                {
+                    "title": "Configured",
+                    "type": "string"
+                }
+            ]
         }
+
+
 	}
 }
